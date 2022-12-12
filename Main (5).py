@@ -29,7 +29,7 @@ getter(69812)
 
 
 def get_properly_members(member_list):
-    vk_session = vk_api.VkApi("gysarova.elena@mail.ru", "zabolockaielena1979")
+    vk_session = vk_api.VkApi("login", "password")
     member_list_true = []
     i = 0
 

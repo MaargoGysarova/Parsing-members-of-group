@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def getter(group_id):
-    vk_session = vk_api.VkApi("gysarova.elena@mail.ru", "zabolockaielena1979")
+    vk_session = vk_api.VkApi("login", "password")
     try:
         vk_session.auth(token_only=True)
     except vk_api.AuthError as error_msg:
